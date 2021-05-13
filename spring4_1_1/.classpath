@@ -11,12 +11,7 @@
 			<attribute name="owner.project.facets" value="jst.web"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/workspace_java80/spring4_1_1/WebContent/WEB-INF/lib/spring-aop-4.3.30.RELEASE.jar"/>
-	<classpathentry kind="lib" path="C:/workspace_java80/spring4_1_1/WebContent/WEB-INF/lib/spring-beans-4.3.30.RELEASE.jar"/>
-	<classpathentry kind="lib" path="C:/workspace_java80/spring4_1_1/WebContent/WEB-INF/lib/spring-context-4.3.30.RELEASE.jar"/>
-	<classpathentry kind="lib" path="C:/workspace_java80/spring4_1_1/WebContent/WEB-INF/lib/spring-core-4.3.30.RELEASE.jar"/>
-	<classpathentry kind="lib" path="C:/workspace_java80/spring4_1_1/WebContent/WEB-INF/lib/spring-expression-4.3.30.RELEASE.jar"/>
-	<classpathentry kind="lib" path="C:/workspace_java80/spring4_1_1/WebContent/WEB-INF/lib/spring-web-4.3.30.RELEASE.jar"/>
-	<classpathentry kind="lib" path="C:/workspace_java80/spring4_1_1/WebContent/WEB-INF/lib/spring-webmvc-4.3.30.RELEASE.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
