@@ -2,4 +2,8 @@
 
 # 안녕하세요
 
-<h1> 스프링 수동 설정 </h1>
+
+<img src="https://github.com/bbigal90/lab_spring/blob/main/images/aop1.gif">
+<img src="https://github.com/bbigal90/lab_spring/blob/main/images/injection1.gif">
+<img src="https://github.com/bbigal90/lab_spring/blob/main/images/injection2.gif">
+<img src="https://github.com/bbigal90/lab_spring/blob/main/images/naming1.gif">
