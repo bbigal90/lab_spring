@@ -13,7 +13,7 @@ import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.multiaction.MultiActionController;
 
 public class EmpController extends MultiActionController {
-
+	EmpLogic empLogic = null;
 	public ModelAndView getEmpList(HttpServletRequest req, HttpServletResponse res) {
 		ModelAndView				mav		= new ModelAndView();
 		List<Map<String, Object>>	empList	= new ArrayList<>();
@@ -27,7 +27,7 @@ public class EmpController extends MultiActionController {
 //		<property name="prefix" value="/WEB-INF/views/" />
 //		<property name="suffix" value=".jsp" />
 //		/WEB-INF/views/getEmpList.jsp
-		mav.setViewName("di/getEmpList");
+//		mav.setViewName("di/getEmpList");
 		return mav;
 	}
 
@@ -41,5 +41,9 @@ public class EmpController extends MultiActionController {
 
 	public void empDelete(HttpServletRequest req, HttpServletResponse res) throws IOException {
 		res.sendRedirect("di/empDelete");
+	}
+
+	public void setEmpLogic(EmpLogic empLogic) {
+		this.empLogic = empLogic;
 	}
 }
